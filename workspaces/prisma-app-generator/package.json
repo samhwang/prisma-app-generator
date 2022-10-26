@@ -1,0 +1,9 @@
+{
+  "name": "prisma-app-generator",
+  "scripts": {
+    "lint": "eslint --cache --fix .",
+    "format": "",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  }
+}
