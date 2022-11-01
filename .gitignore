@@ -2,8 +2,8 @@ node_modules
 .DS_Store
 *.local
 
-.eslintcache
+**/.eslintcache
 
-coverage
+**/coverage
 
-build
+**/build

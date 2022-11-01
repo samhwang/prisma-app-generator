@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:15-alpine
+    restart: "no"
+    env_file: "./workspaces/usage/.env"
+    container_name: discord_bot_db
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db/data:/var/lib/postgresql/data
