@@ -2,7 +2,7 @@
   "name": "prisma-app-generator",
   "scripts": {
     "lint": "eslint --cache --fix .",
-    "format": "",
+    "format": "prettier --cache --write .",
     "test": "vitest run",
     "test:watch": "vitest watch"
   }
