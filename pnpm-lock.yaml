@@ -49,6 +49,17 @@ importers:
   workspaces/prisma-app-generator:
     specifiers: {}
 
+  workspaces/usage:
+    specifiers:
+      dotenv: ^16.0.3
+      dotenv-expand: ^9.0.0
+      prisma: ^4.5.0
+    dependencies:
+      dotenv: 16.0.3
+      dotenv-expand: 9.0.0
+    devDependencies:
+      prisma: 4.5.0
+
 packages:
 
   /@babel/code-frame/7.18.6:
@@ -1102,6 +1113,16 @@ packages:
     dependencies:
       is-obj: 2.0.0
     dev: true
+
+  /dotenv-expand/9.0.0:
+    resolution: {integrity: sha512-uW8Hrhp5ammm9x7kBLR6jDfujgaDarNA02tprvZdyrJ7MpdzD1KyrIHG4l+YoC2fJ2UcdFdNWNWIjt+sexBHJw==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /eastasianwidth/0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
